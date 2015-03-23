@@ -1,0 +1,34 @@
+name: KitPVP
+main: com.hubert_kaluzny.kitpvp.KitPVP
+version: 1.2.0
+commands:
+   setarena:
+      description: Set the arena of the spawn.
+      usage: /setarena
+      permission: kitpvp.admin
+      permission-message: You don't have kitpvp.admin
+   kit:
+      description: Select Kit.
+      usage: /kit
+      permission: kitpvp.kit
+      permission-message: You don't have kitpvp.kit
+   shop:
+      description: Open Shop
+      usage: /shop
+      permission: kitpvp.shop
+      permission-message: You don't have kitpvp.shop
+   dev:
+      description: Enable development mode
+      usage: /dev
+      permission: kitpvp.admin
+      permission-message: You don't have kitpvp.admin
+   points:
+      description: Points system
+      usage: /points <set/withdraw/deposit/balance> <playerName> <amount>
+      permission: kitpvp.admin
+      permission-message: You don't have kitpvp.admin
+   kitpvp:
+      description: KitPVP.
+      usage: /kitpvp <join/leave>
+      permission: kitpvp.basic
+      permission-message: You don't have kitpvp.basic
